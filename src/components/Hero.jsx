@@ -1,6 +1,8 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import image from "./../assets/B1B1F4FA-51EB-40AA-985E-4AF37CC4B9E5_1_105_c.jpeg";
+import resume from "./vaibhavugale.pdf"
+
 
 const Hero = () => {
   return (
@@ -27,9 +29,11 @@ const Hero = () => {
             style={{ fontWeight: "500", fontSize: "1.2em" }}
           />
 
-          <button className=" bg-blue-600 border-none  rounded-sm px-2 text-white  font-semibold mt-4 py-2 hover:bg-blue-700 transition-all duration-200">
+          <a href={resume} target="_blank"  download>
+          <div className=" bg-blue-600 border-none  rounded-sm px-2 text-white  font-semibold mt-4 py-2 hover:bg-blue-700 transition-all duration-200">
             Hire me
-          </button>
+          </div>
+          </a>
         </div>
         {/* <div> */}
         <img src={image} className=" w-[300px] rounded-md" />
