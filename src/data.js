@@ -1,6 +1,6 @@
 import p1 from "../src/assets/p1.png"
 import p2 from "../src/assets/p2.png"
-
+import p3 from "../src/assets/p3.png"
 export const  data = [ 
     {
         name:"project"
@@ -17,8 +17,22 @@ export const  data = [
 
 export const projects = [
     {
+        name:"StudyNotion",
+        TecStack:[
+            "Html",
+            "Tailwind css",
+            "Express",
+            "Node",
+            "MongoDB",
+            "Razorpay",
+            "cloudinary",
+            "JWT",
+            "JavaScript",
+        ],
+        Image:p3
+    },
+    {
         name:"Real time voice chat web app",
-        link:"https://realtime-voice-chat-app.vercel.app",
         TecStack:[
             "Html",
             "Module css",
@@ -33,12 +47,12 @@ export const projects = [
     },
     {
         name:"Razorpay",
-        link:"https://effulgent-croissant-44ae2b.netlify.app/",
         TecStack:[
             "Html",
             "Tailwind css"
         ],
         Image:p2
     },
+   
 
 ]

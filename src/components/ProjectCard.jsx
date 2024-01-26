@@ -22,9 +22,6 @@ const ProjectCard = ({data}) => {
 
          </div>
 
-         <p>
-            link: <Link to={data?.link} target={"_blank"}>{data?.link}</Link>
-         </p>
 
       </div>
     
