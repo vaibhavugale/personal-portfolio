@@ -8,7 +8,7 @@ import { useState } from "react";
 function App() {
   const [x,setX] = useState();
   return (
-    <div >
+    <div className=" max-w-[1200px] mx-auto" >
       {/* <NavBar /> */}
       <Hero />
       <About />
