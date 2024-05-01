@@ -2,19 +2,30 @@ import React from "react";
 import { Icon } from "react-3d-icons";
 import { gmail, github, linkedin } from "react-3d-icons";
 import { Link } from "react-router-dom";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaGithubSquare } from "react-icons/fa";
+import { TfiEmail } from "react-icons/tfi";
+
 
 const Contact = () => {
   return ( 
-    <div  className=" w-[100px] h-[200px] flex justify-center items-center flex-col md:w-full mt-6" >
-     <div className="  h-[100px]  mx-auto max-w-[300px] flex  p-3 ">
+    <div  className=" mt-6" >
+     <p className=" text-center text-2xl p-4 font-sans font-semibold">Hello there. Feel free to drop me a text!</p>
+     <div>
+      <p className=" text-center">ugalevaibhav00@gmail.com</p>\
+     </div>
+     <div className="  h-[250px]  max-w-full overflow-scroll mx-auto  justify-around  items-center flex  md:w-[300px] p-3 ">
      <Link to={"https://www.linkedin.com/in/vaibhavugale-959aa2217/"} target={"_blank"}>
-        <Icon file={linkedin} color={"#0B65C2"} scale={5} />
+  
+
+        <FaLinkedin size={40}/>
       </Link>
-      <Link>
-        <Icon file={gmail} color={"#EA4436"} scale={5}   />
-      </Link>
+
+      <a href={`mailto:ugalevaibhav00@gmail.com`}><TfiEmail size={40}/></a>
+        
+      
       <Link to={"https://github.com/vaibhavugale"}  target={"_blank"}>
-        <Icon file={github} color={"#1c1c1c"} scale={5} />
+        <FaGithubSquare size={40}/>
       </Link>
      </div>
     </div>

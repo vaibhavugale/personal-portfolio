@@ -9,6 +9,7 @@
     "react": "^18.2.0",
     "react-3d-icons": "^1.0.2",
     "react-dom": "^18.2.0",
+    "react-icons": "^5.2.0",
     "react-router-dom": "^6.15.0",
     "react-scripts": "5.0.1",
     "react-type-animation": "^3.1.0",
